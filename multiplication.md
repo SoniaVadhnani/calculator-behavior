@@ -9,7 +9,7 @@ And I press "multiply"
 And I type another large number
 And I press "equals"
 
-Then - I see a very large number with
+Then - I see a large number with
 exponent in the end.
 
 ## Scenario: Signs of the numbers
@@ -109,7 +109,7 @@ five decimal places except if "0".
 
 Given - The calculator is ON.
 
-When - I type multiple numbers with "multiply" in between.
+When - I type numbers with "multiply" as operator.
 
 Then - I see the result as "multiplied number".
 
@@ -138,9 +138,9 @@ Then - Stop taking more digits.
 Given - The calculator is ON.
 
 When - I type any number
-And I press "multiply" multiple times
+And I press "multiply" a few times
 
-Then - I see multiply sign comes only once.
+Then - I see multiply sign comes once.
 
 ## Scenario: Interleaving operators (Press *, then press /, then press +)
 
