@@ -18,8 +18,6 @@ Scenario: Addition of two positive numbers
           And I press "equals"
   
   Then - I see the "added number" as the result.
-
-
   
 Scenario: Addition of two negative numbers
   
@@ -87,15 +85,7 @@ Scenario: Addition of more than 2 numbers
           And I type in "positive number" or "negative number in braces"
           And I press "equals".
   
-  Then - I see the "added number" as the result.
-  
-Scenario: Adding numbers where the result goes out of range
-  
-  Given - The calculator is turned on.
-
-  When - 
-  
-  Then -  
+  Then - I see the "added number" as the result. 
   
 Scenario: 6+* is provided as input?
   
@@ -107,4 +97,3 @@ Scenario: 6+* is provided as input?
           And I press "equals".
   
   Then - The output is 6.
-  
