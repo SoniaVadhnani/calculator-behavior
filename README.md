@@ -14,8 +14,3 @@ Capture each scenario as:
 - initial condition (Given...)
 - event (When...)
 - effect (Then...)
-
-Each feature is in a different markdown file.
-This template has one blank starting point.
-
-As always, avoid passive voice :)
