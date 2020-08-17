@@ -55,7 +55,8 @@ And I press "multiply"
 And I type another decimal number
 And I press "equals"
 
-Then - I see the result as "multiplied number" upto five decimal places except if "0".
+Then - I see the result as "multiplied number" upto
+five decimal places except if "0".
 
 ## Scenario: Irrational value multiplication
 
@@ -66,7 +67,8 @@ And I press "multiply"
 And I type another irrational number
 And I press "equals"
 
-Then - I see the result as "multiplied number" upto five decimal places except if "0".
+Then - I see the result as "multiplied number" upto
+five decimal places except if "0".
 
 ## Scenario: Simple multiplication
 
@@ -88,7 +90,8 @@ And I press "multiply"
 And I type another rational number
 And I press "equals"
 
-Then - I see the result as "multiplied number" upto five decimal places except if "0".
+Then - I see the result as "multiplied number" upto
+five decimal places except if "0".
 
 ## Scenario: Decimal & integer multiplication
 
@@ -99,7 +102,8 @@ And I press "multiply"
 And I type another rational number
 And I press "equals"
 
-Then - I see the result as "multiplied number" upto five decimal places except if "0".
+Then - I see the result as "multiplied number" upto
+five decimal places except if "0".
 
 ## Scenario: More than two numbers multiplication
 
