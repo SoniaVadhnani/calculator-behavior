@@ -70,7 +70,7 @@ Then - The result is the same number given as input.
 
 Given - The calculator is turned on.
 
-When - I type in "postive number or negative number"
+When - I type any number
 And I press "plus"
 And I type in "positive number" or "negative number in braces"
 And I press "plus"
@@ -116,9 +116,10 @@ Then - I see the same number as output.
 
 Given - The calculator is turned on.
 
-When - I type operand2
+When - I type second operand
 And I press "plus"
-And I type in operand1
+And I type in first operand
 And I press "equals".
 
-Then - The result is same as operand1 + operand2.
+Then - The result is same as addition
+of first operand and second operand.
