@@ -133,12 +133,13 @@ When - I type an operand which exceeds limit
 
 Then - Stop taking more digits.
 
-## Scenario: Pressing "multiply button" repeatedly
+## Scenario: Pressing "multiply button" more than one time
 
 Given - The calculator is ON.
 
 When - I type any number
-And I press "multiply" repeatedly
+And I press "multiply"
+And I press "multiply"
 
 Then - I see multiply sign comes once.
 
