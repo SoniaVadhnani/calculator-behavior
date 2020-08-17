@@ -50,13 +50,12 @@ Then - I see original number as result.
 
 Given - The calculator is ON.
 
-When - I type any deicmal number
+When - I type any decimal number
 And I press "multiply"
 And I type another decimal number
 And I press "equals"
 
-Then - I see the result as "multiplied number" upto
-5 decimal places except if "0".
+Then - I see the result as "multiplied number" upto five decimal places except if "0".
 
 ## Scenario: Irrational value multiplication
 
@@ -67,8 +66,7 @@ And I press "multiply"
 And I type another irrational number
 And I press "equals"
 
-Then - I see the result as "multiplied number" upto
-5 decimal places except if "0".
+Then - I see the result as "multiplied number" upto five decimal places except if "0".
 
 ## Scenario: Simple multiplication
 
@@ -90,8 +88,7 @@ And I press "multiply"
 And I type another rational number
 And I press "equals"
 
-Then - I see the result as "multiplied number" upto
-5 decimal places except if "0".
+Then - I see the result as "multiplied number" upto five decimal places except if "0".
 
 ## Scenario: Decimal & integer multiplication
 
@@ -102,14 +99,13 @@ And I press "multiply"
 And I type another rational number
 And I press "equals"
 
-Then - I see the result as "multiplied number" upto
-5 decimal places except if "0".
+Then - I see the result as "multiplied number" upto five decimal places except if "0".
 
 ## Scenario: More than two numbers multiplication
 
 Given - The calculator is ON.
 
-When - I type multiple numbers seperated by "multiply".
+When - I type multiple numbers with "multiply" in between.
 
 Then - I see the result as "multiplied number".
 
